@@ -4,6 +4,8 @@
 
 **Today's Progress**
 
+* Dug deeper into nix and `nixpkgs.nodePackages`
+
 **Thoughts**
 
 **What I learned**

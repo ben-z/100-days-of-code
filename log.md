@@ -21,3 +21,6 @@
 **Link(s) to work**
 
 * I'm keeping `chatwithbenz` local until it actually does something.
+
+
+### Day 1: Friday, January 6, 2017

@@ -4,9 +4,13 @@
 
 **Today's Progress**
 
-* Dug deeper into nix and `nixpkgs.nodePackages`
+* Explored deeper into nix and `nixpkgs.nodePackages`
+* Set up Kik chat wrapper for chatwithbenz
 
 **Thoughts**
+
+* Nix makes sense
+* Kik bots are really easy to start working with, but the documentation doesn't seem to cover setting up ngrok with the bot server.
 
 **What I learned**
 
@@ -15,3 +19,5 @@
 * Update nix channel with `nix-channel --update`
 
 **Link(s) to work**
+
+* I'm keeping `chatwithbenz` local until it actually does something.

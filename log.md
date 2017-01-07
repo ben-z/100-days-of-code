@@ -24,3 +24,7 @@
 
 
 ### Day 1: Friday, January 6, 2017
+
+**Today's Progress**
+
+Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave in the morning but got delayed to past noon. By the time I arrive and get to my Airbnb, it was already time for bed. Hackthon tomorrow, will try harder then.

@@ -28,3 +28,19 @@
 **Today's Progress**
 
 Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave in the morning but got delayed to past noon. By the time I arrive and get to my Airbnb, it was already time for bed. Hackthon tomorrow, will try harder then.
+
+
+### Day 2 & 3: Saturday, January 7, 2017 and Sunday, January 8, 2017
+
+**Progress**
+
+* Went to [HackTheValley](https://www.hackvalley.com/), played with Amazon Echo, and made a [custom Skill](https://devpost.com/software/alexa-my-personal-therapist) for it.
+
+**What I learned**
+
+* How to make an Alexa Skill in Javascript using [alexa-app](https://github.com/matt-kruse/alexa-app) and serve it using [alexa-app-server](https://github.com/matt-kruse/alexa-app-server).
+* Strengthened my knowledge in basic reinforcement learning through designing a language interface that correctly understands user sentiments and provides accurate, appropriate feedback.
+
+**Link(s) to work**
+
+* [Alexa: My Personal Therapist](https://devpost.com/software/alexa-my-personal-therapist)

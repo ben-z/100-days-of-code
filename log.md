@@ -44,3 +44,18 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 **Link(s) to work**
 
 * [Alexa: My Personal Therapist](https://devpost.com/software/alexa-my-personal-therapist)
+
+
+### Day 4: Monday, January 9, 2017
+
+**Progress**
+
+* Took a day off before the first day of work for life stuff.
+
+
+### Day 5: Tuesday, January 10, 2017
+
+**Progress**
+
+* Confidential work-related things. Read a lot of documentation and code.
+* Set up zprezto on work computer.

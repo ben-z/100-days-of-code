@@ -59,3 +59,10 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 
 * Confidential work-related things. Read a lot of documentation and code.
 * Set up zprezto on work computer.
+
+
+### Day 5: Tuesday, January 10, 2017
+
+**Progress**
+
+* Work-related: Python ndb and protobuf + Google App Engine

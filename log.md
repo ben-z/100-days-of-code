@@ -61,8 +61,24 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 * Set up zprezto on work computer.
 
 
-### Day 5: Tuesday, January 10, 2017
+### Day 6: Wednesday, January 11, 2017
 
 **Progress**
 
 * Work-related: Python ndb and protobuf + Google App Engine
+
+*Oops, got carried away with life. Let's restart.*
+
+### Day 0: Sunday, January 15, 2017
+
+**What I did**
+
+* A command-line utility that automatically manages `.gitignore` files
+
+**Thoughts**
+
+* It takes a lot of effort to polish an app, even with small scripts.
+
+**Link(s) to work**
+
+* Still WIP, implemented the add functionality but not the remove. Also it doesn't yet check for duplicates.

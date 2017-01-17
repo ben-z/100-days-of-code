@@ -88,7 +88,7 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 **What I did**
 
 * Learned how to contribute to [nixpkgs](https://github.com/NixOS/nixpkgs).
-* Bumped [Yarn](https://github.com/yarnpkg/yarn) from [v0.18.1 to v0.19.1][yarn-pr-0.19.1] in nixpkgs.
+* Bumped [Yarn](https://github.com/yarnpkg/yarn) from [v0.18.1 to v0.19.1][nixpkgs-pull-21945] in nixpkgs.
 
 **Thoughts**
 
@@ -96,6 +96,6 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 
 **Link(s) to work**
 
-* NixOS/nixpkgs#21945
+* [NixOS/nixpkgs#21945][nixpkgs-pull-21945]
 
-yarn-pr-0.19.1: https://github.com/NixOS/nixpkgs/pull/21945
+[nixpkgs-pull-21945]: https://github.com/NixOS/nixpkgs/pull/21945

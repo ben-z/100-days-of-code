@@ -82,3 +82,20 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 **Link(s) to work**
 
 * Still WIP, implemented the add functionality but not the remove. Also it doesn't yet check for duplicates.
+
+### Day 1: Monday, January 16, 2017
+
+**What I did**
+
+* Learned how to contribute to [nixpkgs](https://github.com/NixOS/nixpkgs).
+* Bumped [Yarn](https://github.com/yarnpkg/yarn) from [v0.18.1 to v0.19.1][yarn-pr-0.19.1] in nixpkgs.
+
+**Thoughts**
+
+* Nix is learnable, if we dig deep enough. It appears to have a very steep learning curve, but after getting over that, everything seems to make more sense. It is important to read the official docs carefully, most of it is very well written.
+
+**Link(s) to work**
+
+* NixOS/nixpkgs#21945
+
+yarn-pr-0.19.1: https://github.com/NixOS/nixpkgs/pull/21945

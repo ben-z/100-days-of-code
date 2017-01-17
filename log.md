@@ -88,14 +88,20 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 **What I did**
 
 * Learned how to contribute to [nixpkgs](https://github.com/NixOS/nixpkgs).
-* Bumped [Yarn](https://github.com/yarnpkg/yarn) from [v0.18.1 to v0.19.1][nixpkgs-pull-21945] in nixpkgs.
+* Bumped [Yarn][yarn] from [v0.18.1 to v0.19.1][nixpkgs-pull-21945] in nixpkgs.
 
 **Thoughts**
 
 * Nix is learnable, if we dig deep enough. It appears to have a very steep learning curve, but after getting over that, everything seems to make more sense. It is important to read the official docs carefully, most of it is very well written.
+
+**What I learned**
+
+* [Yarn][yarn] is now a top-level package as of [yarn: init at 0.18.1](https://github.com/NixOS/nixpkgs/pull/21892)
+* To install yarn: `nix-env -iA nixpkgs.yarn`
 
 **Link(s) to work**
 
 * [NixOS/nixpkgs#21945][nixpkgs-pull-21945]
 
 [nixpkgs-pull-21945]: https://github.com/NixOS/nixpkgs/pull/21945
+[yarn]: https://github.com/yarnpkg/yarn

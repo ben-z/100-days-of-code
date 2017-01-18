@@ -105,3 +105,24 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 
 [nixpkgs-pull-21945]: https://github.com/NixOS/nixpkgs/pull/21945
 [yarn]: https://github.com/yarnpkg/yarn
+
+### Day 2: Tuesday, January 17, 2017
+
+**What I did**
+
+* Received my Kickstarter-backed [Onion Omega 2+][omega2-kickstarter] in the mail today. Played around with it and Read through its [documentation](https://docs.onion.io/omega2-docs/). Didn't get the serial connection to work, but Wifi and AP both work out-of-the-box. AP sometimes crashes.
+
+<img width="16%" src="https://cloud.githubusercontent.com/assets/5977478/22052232/096a5cd0-dd17-11e6-9170-9e28b405d749.jpg" />
+<img width="16%" src="https://cloud.githubusercontent.com/assets/5977478/22052152/9b3aa774-dd16-11e6-8c2a-a72d2f50a849.jpg" />
+<img width="16%" src="https://cloud.githubusercontent.com/assets/5977478/22052153/9b3de498-dd16-11e6-9169-60a6aeb8d6b6.jpg" />
+<img width="16%" src="https://cloud.githubusercontent.com/assets/5977478/22052149/9b39d222-dd16-11e6-8b5f-48c70dac064a.jpg" />
+<img width="16%" src="https://cloud.githubusercontent.com/assets/5977478/22052151/9b3a7aa6-dd16-11e6-8006-d4844b0eb516.jpg" />
+<img width="16%" src="https://cloud.githubusercontent.com/assets/5977478/22052150/9b39ee74-dd16-11e6-9848-b055ac3f550c.jpg" />
+
+**What I learned**
+
+* Omega2+ currently uses the [Dropbear SSH][dropbear], which is supposed to have "a small memory footprint" and is suitable for IOT devices.
+* Omega2+ has a 580MHz CPU, 128MB Memory, and 32MB storage, which is a lot less compared to Raspberry Pi. This is probaby because it's more targeted toward the hardware side of things (it's like Raspberry Pi and Arduino had a child).
+
+[omega2-kickstarter]: https://www.kickstarter.com/projects/onion/omega2-5-iot-computer-with-wi-fi-powered-by-linux
+[dropbear]: https://matt.ucc.asn.au/dropbear/dropbear.html

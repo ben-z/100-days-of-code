@@ -126,3 +126,26 @@ Uh oh, went on a flight from Kelowna to Toronto today. It was supposed to leave 
 
 [omega2-kickstarter]: https://www.kickstarter.com/projects/onion/omega2-5-iot-computer-with-wi-fi-powered-by-linux
 [dropbear]: https://matt.ucc.asn.au/dropbear/dropbear.html
+
+### Day 2: Wednesday, January 18, 2017
+
+**What I did**
+
+* A lot of work on [IgnoreMe][ignoreme] (used to be IgnoreIt, but apparently someone took that name on npm) to get the MVP published today.
+* Took a really quick look at ESLint.
+
+**Thoughts**
+
+* Eslint is pretty cool, but without reading through the docs I can't figure out how to properly customize the rules. I'll read the docs when I encounter it the next time.
+* A lot of people made `.gitignore` automation scripts, but none of them seem to be polished for pleasant everyday usage.
+
+**What I learned**
+
+* Always overestimate the amount of time needed to complete a software project. I (once again) thought it'd take an hour to finish up IgnoreMe since progress from two days ago, but it took 5 hours...
+
+**Links to work**
+
+IgnoreMe on [Github][ignoreme] and [NPM][ignoreme-npm]
+
+[ignoreme]: https://github.com/ben-z/ignoreme
+[ignoreme-npm]: https://www.npmjs.com/package/ignoreme

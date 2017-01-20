@@ -149,3 +149,42 @@ IgnoreMe on [Github][ignoreme] and [NPM][ignoreme-npm]
 
 [ignoreme]: https://github.com/ben-z/ignoreme
 [ignoreme-npm]: https://www.npmjs.com/package/ignoreme
+
+### Day 3: Thursday, January 19, 2017
+
+**What I did**
+
+* Stayed late at work to push a pretty large change. Heading to PennApps tonight.
+
+**What I learned**
+
+Google App Engine's datastore explicitly checks for the type of `datetime` when executing a query, which makes `freezegun.greeze_time` unusable:
+
+```
+BadValueError: Unsupported type for property created_at: <class 'freezegun.api.FakeDatetime'>
+```
+
+A workaround is to patch GAE internals, as outlined [here](https://nvbn.github.io/2016/04/14/gae-datastore-freeze-time/):
+
+```python
+from contextlib import contextmanager
+from google.appengine.api import datastore_types
+from mock import patch
+from freezegun import freeze_time as _freeze_time
+from freezegun.api import FakeDatetime
+
+
+@contextmanager
+def freeze_time(*args, **kwargs):
+    with patch('google.appengine.ext.db.DateTimeProperty.data_type',
+                new=FakeDatetime):
+        datastore_types._VALIDATE_PROPERTY_VALUES[FakeDatetime] = \
+            datastore_types.ValidatePropertyNothing
+        datastore_types._PACK_PROPERTY_VALUES[FakeDatetime] = \
+            datastore_types.PackDatetime
+        datastore_types._PROPERTY_MEANINGS[FakeDatetime] = \
+            datastore_types.entity_pb.Property.GD_WHEN
+            
+        with _freeze_time(*args, **kwargs):
+            yield
+```

@@ -188,3 +188,11 @@ def freeze_time(*args, **kwargs):
         with _freeze_time(*args, **kwargs):
             yield
 ```
+
+### Random Findings: Wednesday, March 22, 2017
+
+* Mac addresses can simply be spoofed on compatible wireless cards using:
+
+```bash
+ifconfig [interface] ether fa:ke:ma:c
+```
